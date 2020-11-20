@@ -4,7 +4,7 @@
 /*|||                                                                                               ||||||||*/
 /*||| This is the official CreArts theme created by CorellanStoma#1996                              ||||||||*/
 /*|||                                                                                               ||||||||*/
-/*||| CreArts v1.2.4 (Beta) (Default Edition)                                                       ||||||||*/
+/*||| CreArts v1.2.4 (Beta) (Twitch Edition)                                                        ||||||||*/
 /*|||                                                                                               ||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -74,9 +74,6 @@
 /* Animated | Icons Hover */
 @import url("https://corellanstoma.github.io/Powercord/Animated/icons-hover.css");
 
-/* Animated | Chat Highlight */
-@import url("https://corellanstoma.github.io/Powercord/Animated/chat-highlight.css");
-
 /* Animated | Channel Highlight */
 @import url("https://corellanstoma.github.io/Powercord/Animated/channel-highlight.css");
 
@@ -134,7 +131,7 @@
 /*||| Version ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
---version: "v1.2.4 (Beta) (Default Edition)"; /*Theme Version*/
+--version: "Spectrix Edition"; /*Theme Version*/
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Settings |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -145,25 +142,24 @@
     --font: 'Oxygen';
 
 /* Accent */
-    --Color001: #CD0952;
-    --Color010: #27D8A1;
+    --Color001: #FA5AA4;
+    --Color010: #2BE491;
 
 /* Background */
-    --Color002: #3D4351;
-    --Color003: #303440;
-    --Color004: #2C303A;
-    --Color005: #252830;
-    
+    --Color002: #1f1f1f;
+    --Color003: #1a1a1a; 
+    --Color004: #0f0f0f;
+    --Color005: #0a0a0a;
+
 /* Text */	
     --Color006: #FFFFFF;
-    --Color007: #C8CDDB;
-    --Color008: #989FB1;
-    --Color009: #6C7180;
-
+    --Color007: #DCDDDE;
+    --Color008: #b9bbbe;
+    --Color009: #4F5459;
 
 /* Mention */
 
-    --Mention:  205,9,82;
+    --Mention: 207,142,244;
 
 /* Shadow */
 
@@ -174,9 +170,9 @@
     --Radius001: 24px; /* The value should not exceed 24px. */
     --Radius002: 90px; /* The value should not exceed 90px. */
 
-/* Picture-in-oicture Opacity */
+/* Picture-in-picture Opacity */
 
-    --picture-in-picture: 60%;
+    --picture-in-picture: 95%;
 
 /* Avatar Size */
 
@@ -186,8 +182,8 @@
 /*||| Blurple Recolor ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-    --accentcolor: 205,9,82;
-    --linkcolor: 205,9,82;
+    --accentcolor: 147,71,250;
+    --linkcolor: 147,71,250;
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Audioviz |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -202,10 +198,10 @@
     --settings-icon-color: var(--Color007);
     --settings-subscriptions: var(--Color007);
     --settings-hypesquad: var(--Color007);
-    --settings-logout: #f04747;
+    --settings-logout: #FA946E;
     --settings-alt-focused: var(--Color007);
     --settings-guild-premium: var(--Color007);
-    --settings-guild-delete: #f04747;
+    --settings-guild-delete: rgb(252, 79, 79);
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Windows 10 Titlebar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -280,7 +276,7 @@
 
 .mention-1f5kbO {
     background: var(--Color001);
-    opacity: 1;
+    opacity: 0.1;
     height: 20px;
     border-radius: 12px;   
 }
@@ -294,7 +290,7 @@
 /* Version */
 
 .info-1VyQPT .size12-3cLvbJ:last-child::after{
-    content: "\a CreArts " var(--version);
+    content: "\a Spectrix's Theme " var(--version);
     text-transform: none;
     white-space: pre;
 }
@@ -1520,8 +1516,8 @@ margin-right: -2px;
 }
 
 .base-gE7OpD {
-    color: var(--Color008);
-    font-size: 12px;
+    color: var(--Color001);
+    font-size: 15px;
     font-weight: 500;
     line-height: 24px;
 
@@ -1950,7 +1946,7 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-/*||| Discover | Server Card  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Discover | Server Card  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
